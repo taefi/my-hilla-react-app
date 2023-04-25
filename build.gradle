@@ -6,6 +6,7 @@ buildscript {
 	}
 	dependencies {
 		classpath('dev.hilla:engine-gradle-plugin:2.1-SNAPSHOT')
+		classpath('com.vaadin:flow-gradle-plugin:24.1-SNAPSHOT')
 	}
 }
 plugins {
@@ -15,9 +16,11 @@ plugins {
 	//id 'dev.hilla'
 }
 
-apply plugin: 'dev.hilla'
+apply plugin: 'com.vaadin'
+apply plugin: 'dev.hilla.engine'
 
 repositories {
+	mavenLocal()
 	mavenCentral()
 	maven { setUrl("https://maven.vaadin.com/vaadin-prereleases") }
 	maven { setUrl("https://maven.vaadin.com/vaadin-addons") }
