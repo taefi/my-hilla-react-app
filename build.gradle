@@ -19,6 +19,17 @@ plugins {
 apply plugin: 'com.vaadin'
 apply plugin: 'dev.hilla.engine'
 
+// uncomment the following if you want to build/run in production mode:
+/*
+vaadin {
+	productionMode = true
+}
+*/
+
+hilla {
+	exposedPackagesToParser = ["com.example.application", "dev.hilla.foobar"]
+}
+
 repositories {
 	mavenLocal()
 	mavenCentral()
