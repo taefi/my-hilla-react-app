@@ -12,10 +12,10 @@
     "@hilla/generator-typescript-plugin-model": "2.1.0-alpha4",
     "@hilla/generator-typescript-plugin-push": "2.1.0-alpha4",
     "@hilla/generator-typescript-utils": "2.1.0-alpha4",
-    "@hilla/react-components": "2.1.0-alpha8",
+    "@hilla/react-components": "2.1.0-alpha9",
     "@polymer/polymer": "3.5.1",
     "@vaadin-component-factory/vcf-nav": "1.1.0",
-    "@vaadin/bundles": "24.1.0-alpha8",
+    "@vaadin/bundles": "24.1.0-alpha9",
     "@vaadin/common-frontend": "0.0.18",
     "@vaadin/icon": "24.1.0-alpha6",
     "@vaadin/icons": "24.1.0-alpha6",
@@ -46,7 +46,7 @@
     "strip-css-comments": "5.0.0",
     "transform-ast": "2.4.4",
     "typescript": "5.0.4",
-    "vite": "4.3.2",
+    "vite": "4.3.5",
     "vite-plugin-checker": "0.5.5",
     "workbox-build": "6.5.4",
     "workbox-core": "6.5.4",
@@ -95,9 +95,9 @@
       "@hilla/generator-typescript-plugin-model": "2.1.0-alpha4",
       "@hilla/generator-typescript-plugin-push": "2.1.0-alpha4",
       "@hilla/generator-typescript-utils": "2.1.0-alpha4",
-      "@hilla/react-components": "2.1.0-alpha8",
+      "@hilla/react-components": "2.1.0-alpha9",
       "@polymer/polymer": "3.5.1",
-      "@vaadin/bundles": "24.1.0-alpha8",
+      "@vaadin/bundles": "24.1.0-alpha9",
       "@vaadin/common-frontend": "0.0.18",
       "@vaadin/icon": "24.1.0-alpha6",
       "@vaadin/icons": "24.1.0-alpha6",
@@ -120,12 +120,12 @@
       "strip-css-comments": "5.0.0",
       "transform-ast": "2.4.4",
       "typescript": "5.0.4",
-      "vite": "4.3.2",
+      "vite": "4.3.5",
       "vite-plugin-checker": "0.5.5",
       "workbox-build": "6.5.4",
       "workbox-core": "6.5.4",
       "workbox-precaching": "6.5.4"
     },
-    "hash": "c04f6a6db1b3dd7472ab3c8b4f013ac1d815d7651b044ba01ca00d0eb62f36e0"
+    "hash": "edefab8a17da34b4abe12c5387c8fb242d5356bddf189918ee0f294f26b9b323"
   }
 }

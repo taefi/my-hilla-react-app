@@ -5,8 +5,7 @@ buildscript {
 	    maven { setUrl("https://maven.vaadin.com/vaadin-prereleases") }
 	}
 	dependencies {
-		classpath("dev.hilla:engine-gradle-plugin:$hillaVersion")
-		classpath('com.vaadin:flow-gradle-plugin:24.1-SNAPSHOT')
+		classpath("dev.hilla:hilla-gradle-plugin:$hillaVersion")
 	}
 }
 plugins {
@@ -16,7 +15,6 @@ plugins {
 	//id 'dev.hilla'
 }
 
-apply plugin: 'com.vaadin'
 apply plugin: 'dev.hilla.engine'
 
 // uncomment the following if you want to build/run in production mode:
